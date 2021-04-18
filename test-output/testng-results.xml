@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Facebook – log in or sign up]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjE3NTQ2NzY3LCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-04-04T08:32:41 MDT" name="Failed suite [Suite]" finished-at="2021-04-04T08:33:23 MDT" duration-ms="41910">
+    <groups>
+    </groups>
+    <test started-at="2021-04-04T08:32:41 MDT" name="Test(failed)" finished-at="2021-04-04T08:33:23 MDT" duration-ms="41910">
+      <class name="testNg.Method">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:testNg.Method@1d082e88]" started-at="2021-04-04T08:32:41 MDT" name="openApp" finished-at="2021-04-04T08:32:51 MDT" duration-ms="10517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="login()[pri:0, instance:testNg.Method@1d082e88]" started-at="2021-04-04T08:32:51 MDT" name="login" finished-at="2021-04-04T08:33:22 MDT" duration-ms="31012" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Facebook – log in or sign up]]>
+            </line>
+            <line>
+              <![CDATA[https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjE3NTQ2NzY3LCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testNg.Method@1d082e88]" started-at="2021-04-04T08:33:22 MDT" name="closeApp" finished-at="2021-04-04T08:33:23 MDT" duration-ms="323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testNg.Method -->
+    </test> <!-- Test(failed) -->
+  </suite> <!-- Failed suite [Suite] -->
+</testng-results>

@@ -1,0 +1,260 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>15/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Apr 04 08:28:47 MDT 2021</td>
+</tr>
+<tr><td>Total time:</td><td>41 seconds (41535 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testNg.Priority.blocks()'><b>blocks</b><br>Test class: testNg.Priority<br/>
+<a href="#Output-1979080261" onClick='toggleBox("Output-1979080261", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1979080261" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1979080261">
+block<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNg.Priority@2805c96b</td></tr>
+<tr>
+<td title='testNg.invocation.blocks()'><b>blocks</b><br>Test class: testNg.invocation<br/>
+<a href="#Output-2002174925" onClick='toggleBox("Output-2002174925", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2002174925" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2002174925">
+block<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNg.invocation@184cf7cf</td></tr>
+<tr>
+<td title='testNg.invocation.blocks()'><b>blocks</b><br>Test class: testNg.invocation<br/>
+<a href="#Output-588449070" onClick='toggleBox("Output-588449070", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-588449070" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-588449070">
+block<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNg.invocation@184cf7cf</td></tr>
+<tr>
+<td title='testNg.skip.calls()'><b>calls</b><br>Test class: testNg.skip<br/>
+<a href="#Output-1610525991" onClick='toggleBox("Output-1610525991", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1610525991" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1610525991">
+call<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNg.skip@23529fee</td></tr>
+<tr>
+<td title='testNg.Priority.calls()'><b>calls</b><br>Test class: testNg.Priority<br/>
+<a href="#Output-1617174216" onClick='toggleBox("Output-1617174216", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1617174216" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1617174216">
+call<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNg.Priority@2805c96b</td></tr>
+<tr>
+<td title='testNg.invocation.calls()'><b>calls</b><br>Test class: testNg.invocation<br/>
+<a href="#Output-1966670937" onClick='toggleBox("Output-1966670937", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1966670937" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1966670937">
+call<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNg.invocation@184cf7cf</td></tr>
+<tr>
+<td title='testNg.skip.chats()'><b>chats</b><br>Test class: testNg.skip<br/>
+<a href="#Output-369049246" onClick='toggleBox("Output-369049246", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-369049246" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-369049246">
+chat<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNg.skip@23529fee</td></tr>
+<tr>
+<td title='testNg.skip.chats()'><b>chats</b><br>Test class: testNg.skip<br/>
+<a href="#Output-1202683709" onClick='toggleBox("Output-1202683709", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1202683709" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1202683709">
+chat<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNg.skip@23529fee</td></tr>
+<tr>
+<td title='testNg.skip.chats()'><b>chats</b><br>Test class: testNg.skip<br/>
+<a href="#Output-2087885397" onClick='toggleBox("Output-2087885397", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2087885397" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2087885397">
+chat<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNg.skip@23529fee</td></tr>
+<tr>
+<td title='testNg.Priority.chats()'><b>chats</b><br>Test class: testNg.Priority<br/>
+<a href="#Output-864221358" onClick='toggleBox("Output-864221358", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-864221358" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-864221358">
+chat<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNg.Priority@2805c96b</td></tr>
+<tr>
+<td title='testNg.invocation.chats()'><b>chats</b><br>Test class: testNg.invocation<br/>
+<a href="#Output-1250499735" onClick='toggleBox("Output-1250499735", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1250499735" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1250499735">
+chat<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNg.invocation@184cf7cf</td></tr>
+<tr>
+<td title='testNg.invocation.chats()'><b>chats</b><br>Test class: testNg.invocation<br/>
+<a href="#Output-173791568" onClick='toggleBox("Output-173791568", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-173791568" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-173791568">
+chat<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNg.invocation@184cf7cf</td></tr>
+<tr>
+<td title='testNg.invocation.chats()'><b>chats</b><br>Test class: testNg.invocation<br/>
+<a href="#Output-1293462056" onClick='toggleBox("Output-1293462056", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1293462056" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1293462056">
+chat<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNg.invocation@184cf7cf</td></tr>
+<tr>
+<td title='testNg.Test1.demo()'><b>demo</b><br>Test class: testNg.Test1<br/>
+<a href="#Output-376725601" onClick='toggleBox("Output-376725601", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-376725601" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-376725601">
+hi<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNg.Test1@2fd6b6c7</td></tr>
+<tr>
+<td title='testNg.Method.login()'><b>login</b><br>Test class: testNg.Method<br/>
+<a href="#Output-1659286984" onClick='toggleBox("Output-1659286984", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1659286984" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1659286984">
+Facebook – log in or sign up<br/>
+https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjE3NTQ2NTMyLCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D<br/>
+</div>
+</td>
+<td></td>
+<td>30</td>
+<td>testNg.Method@4fe767f3</td></tr>
+</table><p>
+</body>
+</html>
